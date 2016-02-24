@@ -1,17 +1,17 @@
-Meteor.publish('publicLists', function() {
-  return Lists.find({userId: {$exists: false}});
+Meteor.publish('publicTours', function() {
+  return Tours.find({userId: {$exists: false}});
 });
 
-Meteor.publish('privateLists', function() {
+Meteor.publish('privateTours', function() {
   if (this.userId) {
-    return Lists.find({userId: this.userId});
+    return Tours.find({userId: this.userId});
   } else {
     this.ready();
   }
 });
 
-Meteor.publish('todos', function(listId) {
-  check(listId, String);
+Meteor.publish('tour_objects', function(tourId) {
+  check(tourId, String);
 
-  return Todos.find({listId: listId});
+  return TourObjects.find({tourId: tourId});
 });

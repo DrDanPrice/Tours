@@ -1,8 +1,8 @@
-<template name="listsShow">
-  <div class="page lists-show">
+<template name="toursShow">
+  <div class="page tours-show">
     <nav class="js-title-nav">
       {{#if editing}}
-        <form class="js-edit-form list-edit-form">
+        <form class="js-edit-form tour-edit-form">
           <input type="text" name="name" value="{{name}}">
           <div class="nav-group right">
             <a href="#" class="js-cancel nav-item"><span class="icon-close js-cancel" title="Cancel"></span></a>
@@ -10,14 +10,14 @@
         </form>
       {{else}}
         <div class="nav-group">
-          <a href="#" class="js-menu nav-item"><span class="icon-list-unordered" title="Show menu"></span></a>
+          <a href="#" class="js-menu nav-item"><span class="icon-tour-unordered" title="Show menu"></span></a>
         </div>
 
-        <h1 class="js-edit-list title-page"><span class="title-wrapper">{{name}}</span> <span class="count-list">{{incompleteCount}}</span></h1>
+        <h1 class="js-edit-tour title-page"><span class="title-wrapper">{{name}}</span> <span class="count-tour">{{incompleteCount}}</span></h1>
 
         <div class="nav-group right">
           <div class="nav-item options-mobile">
-            <select class="list-edit">
+            <select class="tour-edit">
               <option disabled selected>Select an action</option>
               {{#if userId}}
                 <option value="public">Make Public</option>
@@ -29,45 +29,45 @@
             <span class="icon-cog"></span>
           </div>
           <div class="options-web">
-            <a class="js-toggle-list-privacy nav-item">
+            <a class="js-toggle-tour-privacy nav-item">
               {{#if userId}}
-                <span class="icon-lock" title="Make list public"></span>
+                <span class="icon-lock" title="Make tour public"></span>
               {{else}}
-                <span class="icon-unlock" title="Make list private"></span>
+                <span class="icon-unlock" title="Make tour private"></span>
               {{/if}}
             </a>
 
-            <a class="js-delete-list nav-item">
-              <span class="icon-trash" title="Delete list"></span>
+            <a class="js-delete-tour nav-item">
+              <span class="icon-trash" title="Delete tour"></span>
             </a>
           </div>
         </div>
       {{/if}}
 
-      <form class="js-todo-new todo-new input-symbol">
-        <input type="text" placeholder="Type to add new tasks">
-        <span class="icon-add js-todo-add"></span>
+      <form class="js-tour_object-new tour_object-new input-symbol">
+        <input type="text" placeholder="Type to add new objects to your tour">
+        <span class="icon-add js-tour_object-add"></span>
       </form>
     </nav>
 
 
-    <div class="content-scrollable list-items">
-      {{#if todosReady}}
+    <div class="content-scrollable tour-items">
+      {{#if tour_objectsReady}}
         {{#with _id}} {{! Establish new data context with only the '_id'
                           field. This way, when the 'incompleteCount' field
-                          changes, we don't re-render the list contents }}
-          {{#each todos this}}
-            {{> todosItem}}
+                          changes, we don't re-render the tour contents }}
+          {{#each tour_objects this}}
+            {{> tour_objectItem}}
           {{else}}
             <div class="wrapper-message">
-              <div class="title-message">No tasks here</div>
-              <div class="subtitle-message">Add new tasks using the field above</div>
+              <div class="title-message">No objects here</div>
+              <div class="subtitle-message">Add new objects to your tour using the field above</div>
             </div>
           {{/each}}
         {{/with}}
       {{else}}
           <div class="wrapper-message">
-            <div class="title-message">Loading tasks...</div>
+            <div class="title-message">Loading objects...</div>
           </div>
       {{/if}}
     </div>

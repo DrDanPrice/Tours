@@ -1,7 +1,7 @@
-.list-items .list-item {
+.tour-items .tour-item {
   .font-s2;
 
-  // Layout of list-item children
+  // Layout of tour-item children
   .display(flex);
   .flex-wrap(wrap);
   height: 3rem;
@@ -15,7 +15,7 @@
   .delete-item { .flex(0, 0, 3rem); }
 
 
-  // Style of list-item children
+  // Style of tour-item children
   input[type="text"] {
     background: transparent;
     cursor: pointer;
@@ -34,8 +34,8 @@
   }
 
 
-  // Border between list items
-  & + .list-item { border-top: 1px solid #f0f9fb; }
+  // Border between tour items
+  & + .tour-item { border-top: 1px solid #f0f9fb; }
 
   // Checked
   &.checked {

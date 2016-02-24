@@ -1,9 +1,9 @@
 // if the database is empty on server start, create some sample data.
 Meteor.startup(function () {
-  if (Lists.find().count() === 0) {
+  if (Tours.find().count() === 0) {
     var data = [
-      {name: "Meteor Principles",
-       items: ["Data on the Wire",
+      {name: "Example Tour",
+       items: ["Weird Object",
          "One Language",
          "Database Everywhere",
          "Latency Compensation",
@@ -11,37 +11,16 @@ Meteor.startup(function () {
          "Embrace the Ecosystem",
          "Simplicity Equals Productivity"
        ]
-      },
-      {name: "Languages",
-       items: ["Lisp",
-         "C",
-         "C++",
-         "Python",
-         "Ruby",
-         "JavaScript",
-         "Scala",
-         "Erlang",
-         "6502 Assembly"
-         ]
-      },
-      {name: "Favorite Scientists",
-       items: ["Ada Lovelace",
-         "Grace Hopper",
-         "Marie Curie",
-         "Carl Friedrich Gauss",
-         "Nikola Tesla",
-         "Claude Shannon"
-       ]
       }
     ];
 
     var timestamp = (new Date()).getTime();
-    _.each(data, function(list) {
-      var list_id = Lists.insert({name: list.name,
-        incompleteCount: list.items.length});
+    _.each(data, function(tour) {
+      var tour_id = Tours.insert({name: tour.name,
+        incompleteCount: tour.items.length});
 
-      _.each(list.items, function(text) {
-        Todos.insert({listId: list_id,
+      _.each(tour.items, function(text) {
+        TourObjects.insert({tourId: tour_id,
                       text: text,
                       createdAt: new Date(timestamp)});
         timestamp += 1; // ensure unique timestamp.

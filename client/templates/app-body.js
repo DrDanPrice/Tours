@@ -39,8 +39,8 @@ Template.appBody.onRendered(function() {
         .hide()
         .insertBefore(next)
         .fadeIn(function () {
-          if (listFadeInHold) {
-            listFadeInHold.release();
+          if (tourFadeInHold) {
+            tourFadeInHold.release();
           }
         });
     },
@@ -53,8 +53,8 @@ Template.appBody.onRendered(function() {
 });
 
 Template.appBody.helpers({
-  // We use #each on an array of one item so that the "list" template is
-  // removed and a new copy is added when changing lists, which is
+  // We use #each on an array of one item so that the "tour" template is
+  // removed and a new copy is added when changing tours, which is
   // important for animation purposes. #each looks at the _id property of it's
   // items to know when to insert a new item and when to update an old one.
   thisArray: function() {
@@ -73,12 +73,12 @@ Template.appBody.helpers({
   userMenuOpen: function() {
     return Session.get(USER_MENU_KEY);
   },
-  lists: function() {
-    return Lists.find();
+  tours: function() {
+    return Tours.find();
   },
-  activeListClass: function() {
+  activeTourClass: function() {
     var current = Router.current();
-    if (current.route.name === 'listsShow' && current.params._id === this._id) {
+    if (current.route.name === 'toursShow' && current.params._id === this._id) {
       return 'active';
     }
   },
@@ -114,17 +114,17 @@ Template.appBody.events({
   'click .js-logout': function() {
     Meteor.logout();
 
-    // if we are on a private list, we'll need to go to a public one
+    // if we are on a private tour, we'll need to go to a public one
     var current = Router.current();
-    if (current.route.name === 'listsShow' && current.data().userId) {
-      Router.go('listsShow', Lists.findOne({userId: {$exists: false}}));
+    if (current.route.name === 'toursShow' && current.data().userId) {
+      Router.go('toursShow', Tours.findOne({userId: {$exists: false}}));
     }
   },
 
-  'click .js-new-list': function() {
-    var list = {name: Lists.defaultName(), incompleteCount: 0};
-    list._id = Lists.insert(list);
+  'click .js-new-tour': function() {
+    var tour = {name: Tours.defaultName(), incompleteCount: 0};
+    tour._id = Tours.insert(tour);
 
-    Router.go('listsShow', list);
+    Router.go('toursShow', tour);
   }
 });

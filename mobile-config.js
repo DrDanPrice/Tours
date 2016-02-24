@@ -1,8 +1,8 @@
 App.info({
-  name: 'Todos',
-  description: 'A simple todo list app built in Meteor.',
-  author: 'Percolate Studio Team',
-  email: 'us@percolatestudio.com',
+  name: 'Tours',
+  description: 'A simple tour management app built in Meteor.',
+  author: 'DASH Data Analytics in Student Hands',
+  email: 'dash@uh.edu',
   website: 'http://percolatestudio.com',
   version: '0.0.1'
 });

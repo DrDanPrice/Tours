@@ -23,16 +23,16 @@
         </div>
       {{/if}}
 
-      <div class="list-todos">
-        <a class="js-new-list link-list-new"><span class="icon-plus"></span>New List</a>
+      <div class="tour-tour_objects">
+        <a class="js-new-tour link-tour-new"><span class="icon-plus"></span>New Tour</a>
 
-        {{#each lists}}
-          <a href="{{pathFor 'listsShow'}}" class="list-todo {{activeListClass}}" title="{{name}}">
+        {{#each tours}}
+          <a href="{{pathFor 'toursShow'}}" class="tour-tour_object {{activeTourClass}}" title="{{name}}">
             {{#if userId}}
               <span class="icon-lock"></span>
             {{/if}}
             {{#if incompleteCount}}
-              <span class="count-list">{{incompleteCount}}</span>
+              <span class="count-tour">{{incompleteCount}}</span>
             {{/if}}
             {{name}}
           </a>

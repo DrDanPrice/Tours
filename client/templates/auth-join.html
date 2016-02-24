@@ -2,20 +2,20 @@
   <div class="page auth">
     <nav>
       <div class="nav-group">
-        <a href="#" class="js-menu nav-item"><span class="icon-list-unordered"></span></a>
+        <a href="#" class="js-menu nav-item"><span class="icon-tour-unordered"></span></a>
       </div>
     </nav>
 
     <div class="content-scrollable">
       <div class="wrapper-auth">
         <h1 class="title-auth">Join.</h1>
-        <p class="subtitle-auth" >Joining allows you to make private lists</p>
+        <p class="subtitle-auth" >Joining allows you to make private tours</p>
 
         <form>
           {{#if errorMessages}}
-            <div class="list-errors">
+            <div class="tour-errors">
               {{#each errorMessages}}
-                <div class="list-item">{{this}}</div>
+                <div class="tour-item">{{this}}</div>
               {{/each}}
             </div>
           {{/if}}
