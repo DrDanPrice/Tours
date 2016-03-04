@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "small",
+        "marker-symbol": "",
+        "Pool Ice Skate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35836696624756,
+          29.7538712792786
+        ]
+      }
+    }
+  ]
+}
