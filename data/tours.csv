@@ -1,9 +1,0 @@
-tour_id,"artwork_included",predefined,times_taken,likes,"estimated_time",estimated_distance,"tour_title","picture","creator","date_created","artistic_attributes","last_update","description"
-1,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",NULL,0,NULL,NULL,NULL,"All Artwork",NULL,"Tim","2015-01-22","Mixed","2015-03-31 19:28:26","Tour of all listed artwork in the University of Houston's Public Art Collection."
-2,"31,36,4,30,8,20,35,34,22,23,1",NULL,0,NULL,NULL,NULL,"Arts",NULL,"Mike","2014-07-23","Precint","2015-03-10 17:12:25",NULL
-3,"27,26,12",NULL,0,NULL,NULL,NULL,"Athletics",NULL,"Mike","2014-07-28","Precint","2015-01-21 16:48:48",NULL
-4,"3,7,11,18,19,24,25,27,29",NULL,0,NULL,NULL,NULL,"Central",NULL,"Mike","2014-07-23","Precint","2015-01-21 16:48:48",NULL
-5,"28,7,3,9,2",NULL,0,NULL,NULL,NULL,"Professional",NULL,"Mike","2014-07-23","Precint","2015-03-10 16:53:06",NULL
-6,"17,6,10,33,21,32",NULL,0,NULL,NULL,NULL,"Residential",NULL,"Mike","2014-07-23","Precint","2015-01-21 16:48:48",NULL
-7,"15,14",NULL,0,NULL,NULL,NULL,"Cullen North",NULL,"Mike","2014-07-28","Precint","2015-01-21 16:48:48",NULL
-8,"16,5,13",NULL,0,NULL,NULL,NULL,"Biomedical",NULL,"Mike","2014-07-25","Precint","2015-01-21 17:04:04",NULL
