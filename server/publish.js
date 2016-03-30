@@ -12,6 +12,9 @@ Meteor.publish('privateTours', function() {
 
 Meteor.publish('tour_objects', function(tourId) {
   check(tourId, String);
-
   return TourObjects.find({tourId: tourId});
+});
+
+Meteor.publish('all_tour_objects', function() {
+    return TourObjects.find({});
 });
