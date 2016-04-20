@@ -1,5 +1,5 @@
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f2"), 
+    "_id" : "56dd8a77b5a28dfc176b77f2", 
     "title" : "Manual Collection", 
     "display_sections" : [
         {
@@ -79,7 +79,7 @@
     "artwork_id" : NumberInt(1)
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f3"), 
+    "_id" : "56dd8a77b5a28dfc176b77f3", 
     "title" : "Your Move", 
     "location_lat" : 29.72185, 
     "location_long" : -95.338521, 
@@ -166,7 +166,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f4"), 
+    "_id" : "56dd8a77b5a28dfc176b77f4", 
     "title" : "Lotus", 
     "location_lat" : 29.722572, 
     "location_long" : -95.343903, 
@@ -251,7 +251,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f5"), 
+    "_id" : "56dd8a77b5a28dfc176b77f5", 
     "title" : "Benches", 
     "location_lat" : 29.724199, 
     "location_long" : -95.341611, 
@@ -335,7 +335,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f6"), 
+    "_id" : "56dd8a77b5a28dfc176b77f6", 
     "title" : "Flow", 
     "location_lat" : 29.716882, 
     "location_long" : -95.339048, 
@@ -418,7 +418,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f7"), 
+    "_id" : "56dd8a77b5a28dfc176b77f7", 
     "title" : "Houston Radio Radar Reflectors", 
     "location_lat" : 29.720075, 
     "location_long" : -95.348499, 
@@ -504,7 +504,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f8"), 
+    "_id" : "56dd8a77b5a28dfc176b77f8", 
     "title" : "Double Physichromie", 
     "location_lat" : 29.718968, 
     "location_long" : -95.339876, 
@@ -591,7 +591,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77f9"), 
+    "_id" : "56dd8a77b5a28dfc176b77f9", 
     "title" : "Winged Victory", 
     "location_lat" : 29.725595, 
     "location_long" : -95.344124, 
@@ -677,7 +677,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77fa"), 
+    "_id" : "56dd8a77b5a28dfc176b77fa", 
     "title" : "Fountain", 
     "location_lat" : 29.723142, 
     "location_long" : -95.3457, 
@@ -760,7 +760,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77fb"), 
+    "_id" : "56dd8a77b5a28dfc176b77fb", 
     "title" : "Untitled", 
     "location_lat" : 29.718045, 
     "location_long" : -95.343767, 
@@ -851,7 +851,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77fc"), 
+    "_id" : "56dd8a77b5a28dfc176b77fc", 
     "title" : "Tower of the Cheyenne", 
     "location_lat" : 29.721367, 
     "location_long" : -95.342958, 
@@ -937,7 +937,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77fd"), 
+    "_id" : "56dd8a77b5a28dfc176b77fd", 
     "title" : "Troika", 
     "location_lat" : 29.723968, 
     "location_long" : -95.345394, 
@@ -1019,7 +1019,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77fe"), 
+    "_id" : "56dd8a77b5a28dfc176b77fe", 
     "title" : "Healing Nature", 
     "location_lat" : 29.718525, 
     "location_long" : -95.338196, 
@@ -1103,7 +1103,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b77ff"), 
+    "_id" : "56dd8a77b5a28dfc176b77ff", 
     "title" : "Big Orange", 
     "location_lat" : 29.726938, 
     "location_long" : -95.340742, 
@@ -1187,7 +1187,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7800"), 
+    "_id" : "56dd8a77b5a28dfc176b7800", 
     "title" : "Modulation", 
     "location_lat" : 29.726443, 
     "location_long" : -95.339143, 
@@ -1271,7 +1271,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7801"), 
+    "_id" : "56dd8a77b5a28dfc176b7801", 
     "title" : "Round About", 
     "location_lat" : 29.716582, 
     "location_long" : -95.339668, 
@@ -1356,7 +1356,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7802"), 
+    "_id" : "56dd8a77b5a28dfc176b7802", 
     "title" : "Fiesta Dances", 
     "location_lat" : 29.718685, 
     "location_long" : -95.347982, 
@@ -1445,7 +1445,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7803"), 
+    "_id" : "56dd8a77b5a28dfc176b7803", 
     "title" : "Om", 
     "location_lat" : 29.723017, 
     "location_long" : -95.344747, 
@@ -1527,7 +1527,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7804"), 
+    "_id" : "56dd8a77b5a28dfc176b7804", 
     "title" : "Waterfall, Stele and River", 
     "location_lat" : 29.720866, 
     "location_long" : -95.344708, 
@@ -1611,7 +1611,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7805"), 
+    "_id" : "56dd8a77b5a28dfc176b7805", 
     "title" : "Collegium", 
     "location_lat" : 29.724047, 
     "location_long" : -95.343023, 
@@ -1695,7 +1695,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7806"), 
+    "_id" : "56dd8a77b5a28dfc176b7806", 
     "title" : "Genki", 
     "location_lat" : 29.718378, 
     "location_long" : -95.344695, 
@@ -1781,7 +1781,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7807"), 
+    "_id" : "56dd8a77b5a28dfc176b7807", 
     "title" : "Landscape with Blue Trees", 
     "location_lat" : 29.72327, 
     "location_long" : -95.341261, 
@@ -1864,7 +1864,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7808"), 
+    "_id" : "56dd8a77b5a28dfc176b7808", 
     "title" : "Albertus Magnus", 
     "location_lat" : 29.723717, 
     "location_long" : -95.338238, 
@@ -1950,7 +1950,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7809"), 
+    "_id" : "56dd8a77b5a28dfc176b7809", 
     "title" : "Sandy in Defined Space", 
     "location_lat" : 29.722741, 
     "location_long" : -95.344738, 
@@ -2032,7 +2032,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b780a"), 
+    "_id" : "56dd8a77b5a28dfc176b780a", 
     "title" : "Split Level", 
     "location_lat" : 29.71942, 
     "location_long" : -95.34127, 
@@ -2116,7 +2116,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b780b"), 
+    "_id" : "56dd8a77b5a28dfc176b780b", 
     "title" : "Untitled (100 Chairs)", 
     "location_lat" : 29.725629, 
     "location_long" : -95.345472, 
@@ -2201,7 +2201,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b780c"), 
+    "_id" : "56dd8a77b5a28dfc176b780c", 
     "title" : "Untitled", 
     "location_lat" : 29.724503, 
     "location_long" : -95.345422, 
@@ -2284,7 +2284,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b780d"), 
+    "_id" : "56dd8a77b5a28dfc176b780d", 
     "title" : "Remembering Next Summer", 
     "location_lat" : 29.719801, 
     "location_long" : -95.340224, 
@@ -2369,7 +2369,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b780e"), 
+    "_id" : "56dd8a77b5a28dfc176b780e", 
     "title" : "A Comma A", 
     "location_lat" : 29.720839, 
     "location_long" : -95.342704, 
@@ -2454,7 +2454,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b780f"), 
+    "_id" : "56dd8a77b5a28dfc176b780f", 
     "title" : "Contemplation", 
     "location_lat" : 29.723453, 
     "location_long" : -95.343429, 
@@ -2538,7 +2538,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7810"), 
+    "_id" : "56dd8a77b5a28dfc176b7810", 
     "title" : "A Moment in Time", 
     "location_lat" : 29.724274, 
     "location_long" : -95.343733, 
@@ -2622,7 +2622,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7811"), 
+    "_id" : "56dd8a77b5a28dfc176b7811", 
     "title" : "Jonah and the Whale", 
     "location_lat" : 29.720074, 
     "location_long" : -95.350968, 
@@ -2704,7 +2704,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7812"), 
+    "_id" : "56dd8a77b5a28dfc176b7812", 
     "title" : "The Statue of Four Lies", 
     "location_lat" : 29.718578, 
     "location_long" : -95.342826, 
@@ -2795,7 +2795,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7813"), 
+    "_id" : "56dd8a77b5a28dfc176b7813", 
     "title" : "Windows on the World", 
     "location_lat" : 29.724338, 
     "location_long" : -95.343945, 
@@ -2878,7 +2878,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7814"), 
+    "_id" : "56dd8a77b5a28dfc176b7814", 
     "title" : "Untitled", 
     "location_lat" : 29.724296, 
     "location_long" : -95.343809, 
@@ -2962,7 +2962,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7815"), 
+    "_id" : "56dd8a77b5a28dfc176b7815", 
     "title" : "Euphonia", 
     "location_lat" : 29.725596, 
     "location_long" : -95.344118, 
@@ -3047,7 +3047,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7816"), 
+    "_id" : "56dd8a77b5a28dfc176b7816", 
     "title" : "Shine and Rise", 
     "location_lat" : 29.720811, 
     "location_long" : -95.342309, 
@@ -3133,7 +3133,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7817"), 
+    "_id" : "56dd8a77b5a28dfc176b7817", 
     "title" : "Ali", 
     "location_lat" : 29.72367, 
     "location_long" : -95.342197, 
@@ -3219,7 +3219,7 @@
     ]
 }
 { 
-    "_id" : ObjectId("56dd8a77b5a28dfc176b7818"), 
+    "_id" : "56dd8a77b5a28dfc176b7818", 
     "title" : "Cougars", 
     "location_lat" : 29.720598, 
     "location_long" : -95.344132, 

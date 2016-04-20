@@ -1,45 +1,45 @@
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b782c"), 
+    "_id" : "56e047cbb5a28dfc176b782c", 
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b77f2"), 
-        ObjectId("56dd8a77b5a28dfc176b77f3"), 
-        ObjectId("56dd8a77b5a28dfc176b77f4"), 
-        ObjectId("56dd8a77b5a28dfc176b77f5"), 
-        ObjectId("56dd8a77b5a28dfc176b77f6"), 
-        ObjectId("56dd8a77b5a28dfc176b77f7"), 
-        ObjectId("56dd8a77b5a28dfc176b77f8"), 
-        ObjectId("56dd8a77b5a28dfc176b77f9"), 
-        ObjectId("56dd8a77b5a28dfc176b77fa"), 
-        ObjectId("56dd8a77b5a28dfc176b77fb"), 
-        ObjectId("56dd8a77b5a28dfc176b77fc"), 
-        ObjectId("56dd8a77b5a28dfc176b77fd"), 
-        ObjectId("56dd8a77b5a28dfc176b77fe"), 
-        ObjectId("56dd8a77b5a28dfc176b77ff"), 
-        ObjectId("56dd8a77b5a28dfc176b7800"), 
-        ObjectId("56dd8a77b5a28dfc176b7801"), 
-        ObjectId("56dd8a77b5a28dfc176b7802"), 
-        ObjectId("56dd8a77b5a28dfc176b7803"), 
-        ObjectId("56dd8a77b5a28dfc176b7804"), 
-        ObjectId("56dd8a77b5a28dfc176b7805"), 
-        ObjectId("56dd8a77b5a28dfc176b7806"), 
-        ObjectId("56dd8a77b5a28dfc176b7807"), 
-        ObjectId("56dd8a77b5a28dfc176b7808"), 
-        ObjectId("56dd8a77b5a28dfc176b7809"), 
-        ObjectId("56dd8a77b5a28dfc176b780a"), 
-        ObjectId("56dd8a77b5a28dfc176b780b"), 
-        ObjectId("56dd8a77b5a28dfc176b780c"), 
-        ObjectId("56dd8a77b5a28dfc176b780d"), 
-        ObjectId("56dd8a77b5a28dfc176b780e"), 
-        ObjectId("56dd8a77b5a28dfc176b780f"), 
-        ObjectId("56dd8a77b5a28dfc176b7810"), 
-        ObjectId("56dd8a77b5a28dfc176b7811"), 
-        ObjectId("56dd8a77b5a28dfc176b7812"), 
-        ObjectId("56dd8a77b5a28dfc176b7813"), 
-        ObjectId("56dd8a77b5a28dfc176b7814"), 
-        ObjectId("56dd8a77b5a28dfc176b7815"), 
-        ObjectId("56dd8a77b5a28dfc176b7816"), 
-        ObjectId("56dd8a77b5a28dfc176b7817"), 
-        ObjectId("56dd8a77b5a28dfc176b7818")
+        "56dd8a77b5a28dfc176b77f2", 
+        "56dd8a77b5a28dfc176b77f3", 
+        "56dd8a77b5a28dfc176b77f4", 
+        "56dd8a77b5a28dfc176b77f5", 
+        "56dd8a77b5a28dfc176b77f6", 
+        "56dd8a77b5a28dfc176b77f7", 
+        "56dd8a77b5a28dfc176b77f8", 
+        "56dd8a77b5a28dfc176b77f9", 
+        "56dd8a77b5a28dfc176b77fa", 
+        "56dd8a77b5a28dfc176b77fb", 
+        "56dd8a77b5a28dfc176b77fc", 
+        "56dd8a77b5a28dfc176b77fd", 
+        "56dd8a77b5a28dfc176b77fe", 
+        "56dd8a77b5a28dfc176b77ff", 
+        "56dd8a77b5a28dfc176b7800", 
+        "56dd8a77b5a28dfc176b7801", 
+        "56dd8a77b5a28dfc176b7802", 
+        "56dd8a77b5a28dfc176b7803", 
+        "56dd8a77b5a28dfc176b7804", 
+        "56dd8a77b5a28dfc176b7805", 
+        "56dd8a77b5a28dfc176b7806", 
+        "56dd8a77b5a28dfc176b7807", 
+        "56dd8a77b5a28dfc176b7808", 
+        "56dd8a77b5a28dfc176b7809", 
+        "56dd8a77b5a28dfc176b780a", 
+        "56dd8a77b5a28dfc176b780b", 
+        "56dd8a77b5a28dfc176b780c", 
+        "56dd8a77b5a28dfc176b780d", 
+        "56dd8a77b5a28dfc176b780e", 
+        "56dd8a77b5a28dfc176b780f", 
+        "56dd8a77b5a28dfc176b7810", 
+        "56dd8a77b5a28dfc176b7811", 
+        "56dd8a77b5a28dfc176b7812", 
+        "56dd8a77b5a28dfc176b7813", 
+        "56dd8a77b5a28dfc176b7814", 
+        "56dd8a77b5a28dfc176b7815", 
+        "56dd8a77b5a28dfc176b7816", 
+        "56dd8a77b5a28dfc176b7817", 
+        "56dd8a77b5a28dfc176b7818"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -55,19 +55,19 @@
     "description" : "Tour of all listed artwork in the University of Houston's Public Art Collection."
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b782d"),
+    "_id" : "56e047cbb5a28dfc176b782d",
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b7810"), 
-        ObjectId("56dd8a77b5a28dfc176b7815"), 
-        ObjectId("56dd8a77b5a28dfc176b77f5"), 
-        ObjectId("56dd8a77b5a28dfc176b780f"), 
-        ObjectId("56dd8a77b5a28dfc176b77f9"), 
-        ObjectId("56dd8a77b5a28dfc176b7805"), 
-        ObjectId("56dd8a77b5a28dfc176b7814"), 
-        ObjectId("56dd8a77b5a28dfc176b7813"), 
-        ObjectId("56dd8a77b5a28dfc176b7807"), 
-        ObjectId("56dd8a77b5a28dfc176b7808"), 
-        ObjectId("56dd8a77b5a28dfc176b77f2")
+        "56dd8a77b5a28dfc176b7810", 
+        "56dd8a77b5a28dfc176b7815", 
+        "56dd8a77b5a28dfc176b77f5", 
+        "56dd8a77b5a28dfc176b780f", 
+        "56dd8a77b5a28dfc176b77f9", 
+        "56dd8a77b5a28dfc176b7805", 
+        "56dd8a77b5a28dfc176b7814", 
+        "56dd8a77b5a28dfc176b7813", 
+        "56dd8a77b5a28dfc176b7807", 
+        "56dd8a77b5a28dfc176b7808", 
+        "56dd8a77b5a28dfc176b77f2"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -83,11 +83,11 @@
     "description" : null
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b782e"),
+    "_id" : "56e047cbb5a28dfc176b782e",
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b780c"), 
-        ObjectId("56dd8a77b5a28dfc176b780b"), 
-        ObjectId("56dd8a77b5a28dfc176b77fd")
+        "56dd8a77b5a28dfc176b780c", 
+        "56dd8a77b5a28dfc176b780b", 
+        "56dd8a77b5a28dfc176b77fd"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -103,17 +103,17 @@
     "description" : null
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b782f"), 
+    "_id" : "56e047cbb5a28dfc176b782f", 
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b77f4"), 
-        ObjectId("56dd8a77b5a28dfc176b77f8"), 
-        ObjectId("56dd8a77b5a28dfc176b77fc"), 
-        ObjectId("56dd8a77b5a28dfc176b7803"), 
-        ObjectId("56dd8a77b5a28dfc176b7804"), 
-        ObjectId("56dd8a77b5a28dfc176b7809"), 
-        ObjectId("56dd8a77b5a28dfc176b780a"), 
-        ObjectId("56dd8a77b5a28dfc176b780c"), 
-        ObjectId("56dd8a77b5a28dfc176b780e")
+        "56dd8a77b5a28dfc176b77f4", 
+        "56dd8a77b5a28dfc176b77f8", 
+        "56dd8a77b5a28dfc176b77fc", 
+        "56dd8a77b5a28dfc176b7803", 
+        "56dd8a77b5a28dfc176b7804", 
+        "56dd8a77b5a28dfc176b7809", 
+        "56dd8a77b5a28dfc176b780a", 
+        "56dd8a77b5a28dfc176b780c", 
+        "56dd8a77b5a28dfc176b780e"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -129,13 +129,13 @@
     "description" : null
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b7830"),
+    "_id" : "56e047cbb5a28dfc176b7830",
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b780d"), 
-        ObjectId("56dd8a77b5a28dfc176b77f8"), 
-        ObjectId("56dd8a77b5a28dfc176b77f4"), 
-        ObjectId("56dd8a77b5a28dfc176b77fa"), 
-        ObjectId("56dd8a77b5a28dfc176b77f3")
+        "56dd8a77b5a28dfc176b780d", 
+        "56dd8a77b5a28dfc176b77f8", 
+        "56dd8a77b5a28dfc176b77f4", 
+        "56dd8a77b5a28dfc176b77fa", 
+        "56dd8a77b5a28dfc176b77f3"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -151,14 +151,14 @@
     "description" : null
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b7831"),
+    "_id" : "56e047cbb5a28dfc176b7831",
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b7802"), 
-        ObjectId("56dd8a77b5a28dfc176b77f7"), 
-        ObjectId("56dd8a77b5a28dfc176b77fb"), 
-        ObjectId("56dd8a77b5a28dfc176b7812"), 
-        ObjectId("56dd8a77b5a28dfc176b7806"), 
-        ObjectId("56dd8a77b5a28dfc176b7811")
+        "56dd8a77b5a28dfc176b7802", 
+        "56dd8a77b5a28dfc176b77f7", 
+        "56dd8a77b5a28dfc176b77fb", 
+        "56dd8a77b5a28dfc176b7812", 
+        "56dd8a77b5a28dfc176b7806", 
+        "56dd8a77b5a28dfc176b7811"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -174,10 +174,10 @@
     "description" : null
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b7832"),
+    "_id" : "56e047cbb5a28dfc176b7832",
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b7800"), 
-        ObjectId("56dd8a77b5a28dfc176b77ff")
+        "56dd8a77b5a28dfc176b7800", 
+        "56dd8a77b5a28dfc176b77ff"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
@@ -193,11 +193,11 @@
     "description" : null
 }
 { 
-    "_id" : ObjectId("56e047cbb5a28dfc176b7833"),
+    "_id" : "56e047cbb5a28dfc176b7833",
     "artwork_included" : [
-        ObjectId("56dd8a77b5a28dfc176b7801"), 
-        ObjectId("56dd8a77b5a28dfc176b77f6"), 
-        ObjectId("56dd8a77b5a28dfc176b77fe")
+        "56dd8a77b5a28dfc176b7801", 
+        "56dd8a77b5a28dfc176b77f6", 
+        "56dd8a77b5a28dfc176b77fe"
     ], 
     "predefined" : null, 
     "times_taken" : NumberInt(0), 
