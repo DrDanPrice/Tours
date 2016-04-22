@@ -12,7 +12,8 @@ Meteor.publish('privateTours', function() {
 
 Meteor.publish('tour_objects', function(tourId) {
   check(tourId, String);
-  return TourObjects.find({tourId: tourId});
+  tour = Tours.find({_id: tourId}).fetch()[0];
+  return TourObjects.find({_id: {$in: tour.artwork_included}});
 });
 
 Meteor.publish('all_tour_objects', function() {

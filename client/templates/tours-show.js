@@ -42,7 +42,8 @@ Template.toursShow.helpers({
   },
 
   tour_objects: function(tourId) {
-    return TourObjects.find({tourId: tourId}, {sort: {createdAt : -1}});
+      tour = Tours.find({_id: tourId}).fetch()[0];
+      return TourObjects.find({_id: {$in: tour.artwork_included}});
   }
 });
 
