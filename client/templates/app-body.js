@@ -122,7 +122,7 @@ Template.appBody.events({
   },
 
   'click .js-new-tour': function() {
-    var tour = {name: Tours.defaultName(), incompleteCount: 0};
+    var tour = {name: Tours.defaultName(), artwork_included: []};
     tour._id = Tours.insert(tour);
 
     Router.go('toursShow', tour);

@@ -58,7 +58,7 @@ var editTour = function(tour, template) {
 var saveTour = function(tour, template) {
   Session.set(EDITING_KEY, false);
   Tours.update(tour._id, {$set: {name: template.$('[name=name]').val()}});
-}
+};
 
 var deleteTour = function(tour) {
   // ensure the last public tour cannot be deleted.
@@ -69,11 +69,7 @@ var deleteTour = function(tour) {
   var message = "Are you sure you want to delete the tour " + tour.name + "?";
   if (confirm(message)) {
     // we must remove each item individually from the client
-    TourObjects.find({tourId: tour._id}).forEach(function(tour_object) {
-      TourObjects.remove(tour_object._id);
-    });
     Tours.remove(tour._id);
-
     Router.go('home');
     return true;
   } else {
@@ -164,13 +160,12 @@ Template.toursShow.events({
     if (! $input.val())
       return;
 
-    TourObjects.insert({
-      tourId: this._id,
-      text: $input.val(),
+    var to_id = TourObjects.insert({
+      title: $input.val(),
       checked: false,
       createdAt: new Date()
     });
-    Tours.update(this._id, {$inc: {incompleteCount: 1}});
+    Tours.update(this._id, {$push: {artwork_included: to_id}});
     $input.val('');
   }
 });
