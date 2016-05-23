@@ -9,11 +9,13 @@ blaze-html-templates
 session
 mongo
 mobile-experience
-standard-minifiers
-insecure
 less
 iron:router@0.9.4
 accounts-password
 jquery
 tracker
 check
+standard-minifier-css
+standard-minifier-js
+aldeed:autoform
+aldeed:collection2

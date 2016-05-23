@@ -19,3 +19,11 @@ Meteor.publish('tour_objects', function(tourId) {
 Meteor.publish('all_tour_objects', function() {
     return TourObjects.find({});
 });
+
+Meteor.publish('tour_by_id', function(object_id) {
+  return Tours.find({_id: object_id});
+});
+
+Meteor.publish('tour_object_by_id', function(object_id) {
+  return TourObjects.find({_id: object_id});
+});

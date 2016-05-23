@@ -28,3 +28,20 @@ Meteor.startup(function () {
     });
   }
 });
+
+
+//Meteor methods API
+Meteor.methods({
+  createTour: function(tour) {
+    Tours.create(tour);
+  },
+  editTour: function(tourId, tour) {
+    Tours.update({id: tourId}, {$set: tour});
+  },
+  createTourObject: function(tourObject) {
+    TourObjects.create(tourObject);
+  },
+  editTourObject: function(tourObjectId, tourObject) {
+    TourObjects.update({id: tourObjectId}, {$set: tourObject});
+  }
+});

@@ -1,0 +1,10 @@
+<template name="tour_object_show">
+  <div class="page tour-object-show">
+    <nav class="js-title-nav">
+      <h1>{{title}}</h1>
+    </nav>
+    <div class="content-scrollable">
+      {{> quickForm id="tourObject" collection="TourObjects" type="insert" doc=this type="disabled"}}
+    </div>
+  </div>
+</template>
