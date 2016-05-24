@@ -1,6 +1,15 @@
 Template.tour_object_show.helpers({
-  tourObject: function () {
-    return Template.currentData();
+  formAction: function () {
+    if (Template.currentData() && Template.currentData()._id != null)
+      return "update";
+    else
+      return "insert";
+  },
+  formObject: function () {
+    if (Template.currentData() && Template.currentData()._id != null)
+      return Template.currentData();
+    else
+      return null;
   }
 });
 
@@ -35,6 +44,9 @@ TourObjects.attachSchema(new SimpleSchema(
     "display_sections.$.section_data.$.element_content": {
       label: "Content",
       type: String,
+      autoform: {
+        rows: 3
+      },
       optional: true
     },
     "artist_name": {

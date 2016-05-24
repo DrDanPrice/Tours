@@ -4,7 +4,8 @@
       <h1>{{title}}</h1>
     </nav>
     <div class="content-scrollable">
-      {{> quickForm id="tourObject" collection="TourObjects" type="insert" doc=this type="disabled"}}
+      {{testConsole}}
+      {{> quickForm id="tourObject" collection="TourObjects" type=formAction doc=formObject }}
     </div>
   </div>
 </template>
