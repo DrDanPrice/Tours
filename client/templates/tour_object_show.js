@@ -65,7 +65,11 @@ TourObjects.attachSchema(new SimpleSchema(
       type: String
     },
     tags: {
-      type: String
+      type: [String],
+      autoform: {
+        type: 'tags',
+        afFieldInput: "bootstrap-tagsinput options"
+      }
     }
   }
 ));

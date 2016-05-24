@@ -19,3 +19,5 @@ standard-minifier-css
 standard-minifier-js
 aldeed:autoform
 aldeed:collection2
+cfs:autoform
+yogiben:autoform-tags
