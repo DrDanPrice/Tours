@@ -150,6 +150,10 @@ Template.toursShow.events({
     toggleTourPrivacy(this, template);
   },
 
+  'click .add-tour-object':function() {
+    Router.go('newToursObject', {tour_id: Router.current().params._id})
+  },
+
   'click .js-delete-tour': function(event, template) {
     deleteTour(this, template);
   },
