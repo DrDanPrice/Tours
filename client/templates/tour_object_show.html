@@ -4,8 +4,7 @@
       <h1>{{title}}</h1>
     </nav>
     <div class="content-scrollable">
-      {{testConsole}}
-      {{> quickForm id="tourObject" collection="TourObjects" type=formAction doc=formObject }}
+      {{> quickForm id="tourObjectForm" collection="TourObjects" type="method" meteormethod="tourObjectUpsert" doc=formObject }}
     </div>
   </div>
 </template>

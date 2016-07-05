@@ -36,6 +36,7 @@ Meteor.methods({
     Tours.create(tour);
   },
   editTour: function(tourId, tour) {
+    console.log("server", tour);
     Tours.update({id: tourId}, {$set: tour});
   },
   createTourObject: function(tourObject) {

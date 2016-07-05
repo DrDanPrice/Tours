@@ -5,6 +5,7 @@ Session.setDefault(EDITING_KEY, false);
 var firstRender = true;
 var tourRenderHold = LaunchScreen.hold();
 tourFadeInHold = null;
+Meteor.subscribe("all_tour_objects");
 
 Template.toursShow.onRendered(function() {
   if (firstRender) {
@@ -44,6 +45,10 @@ Template.toursShow.helpers({
   tour_objects: function(tourId) {
       tour = Tours.find({_id: tourId}).fetch()[0];
       return TourObjects.find({_id: {$in: tour.artwork_included}});
+  },
+
+  all_tour_objects: function() {
+    return TourObjects.find({});
   }
 });
 

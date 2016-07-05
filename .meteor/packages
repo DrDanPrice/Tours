@@ -19,5 +19,7 @@ standard-minifier-css
 standard-minifier-js
 aldeed:autoform
 aldeed:collection2
-cfs:autoform
 yogiben:autoform-tags
+cfs:standard-packages
+cfs:autoform
+cfs:gridfs@0.0.33
