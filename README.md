@@ -9,7 +9,7 @@ On Mac OS install via [homebrew](http://brew.sh/):
 
 `brew install mongodb`
 
-* [meteor](https://www.meteor.com/install) 
+* [meteor](https://www.meteor.com/install)
 
 On Mac OS or Linux:
 
@@ -28,3 +28,9 @@ ahead input selector. Also, there were some considerations on handling the
 way that the many-to-many relation between tours and tour objects (reusing
 tour objects or duplicating them for each tour).
 3 - Build tours
+4 - anonymous users are allowed to create objects
+5 - all views look like edit views!!!
+6 - submit goes to page not found
+7 - image upload is a text field, and gets $in needs array error from mongo if text entered
+8 - Viewport argument key "minimal-ui" not recognized and ignored.
+9 - New tour doesn't create anything and goes to page not found
