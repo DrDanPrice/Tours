@@ -9,6 +9,8 @@ On Mac OS install via [homebrew](http://brew.sh/):
 
 `brew install mongodb`
 
+`run mongod in a terminal window to start mongo`
+
 * [meteor](https://www.meteor.com/install)
 
 On Mac OS or Linux:

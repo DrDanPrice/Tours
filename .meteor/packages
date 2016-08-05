@@ -20,7 +20,5 @@ standard-minifier-js@1.1.8
 aldeed:autoform
 aldeed:collection2
 yogiben:autoform-tags
-cfs:standard-packages
-cfs:autoform
-cfs:gridfs@0.0.33
 ostrio:files
+ostrio:autoform-files

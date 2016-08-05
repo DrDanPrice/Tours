@@ -5,7 +5,12 @@
       <!-- <p>tour_object_show.html - perhaps: edit button to show QuickForm, but show as students will see it default</p> -->
     </nav>
     <div class="content-scrollable">
-      {{> quickForm id="tourObjectForm" collection="TourObjects" type="method" meteormethod="tourObjectUpsert" doc=formObject }}
+      <!-- {{> quickForm id="tourObjectForm" collection="TourObjects" type="method" meteormethod="tourObjectUpsert" doc=formObject }} -->
+      {{#autoForm id="tourObjectForm" collection="TourObjects" type="update"}}
+        {{> afQuickField name="title"}}
+        {{> afQuickField name="image"}}
+        <button type="submit" class="btn btn-primary">Insert Image</button>
+      {{/autoForm}}
     </div>
   </div>
 </template>
