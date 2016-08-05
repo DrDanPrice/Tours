@@ -21,7 +21,7 @@ On Mac OS or Linux:
 `MONGO_URL=mongodb://localhost:27017/Tours meteor`
 
 1 - File upload
-2 - Yes, on the Tour Management App, the pending items are the file upload and
+2 - Carl says: Yes, on the Tour Management App, the pending items are the file upload and
 making tour objects available to all tours. We were initially thinking about
 adding in a selector to add tour object to tours using something like a type
 ahead input selector. Also, there were some considerations on handling the
