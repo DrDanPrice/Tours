@@ -34,3 +34,4 @@ tour objects or duplicating them for each tour).
 7 - image upload is a text field, and gets $in needs array error from mongo if text entered
 8 - Viewport argument key "minimal-ui" not recognized and ignored.
 9 - New tour doesn't create anything and goes to page not found
+10 - js-bson: Failed to load c++ bson extension, using pure JS version -- might be only Mac problem; try on linux

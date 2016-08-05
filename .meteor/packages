@@ -23,3 +23,4 @@ yogiben:autoform-tags
 cfs:standard-packages
 cfs:autoform
 cfs:gridfs@0.0.33
+ostrio:files
